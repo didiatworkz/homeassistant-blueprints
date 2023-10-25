@@ -40,7 +40,7 @@ blueprint:
         entity:
           filter:
             domain: input_boolean
-  source_url: ""
+  source_url: "https://raw.githubusercontent.com/didiatworkz/homeassistant-blueprints/main/homematic%20_ip_cloud_evo_thermostat_window_control.yaml"
 trigger:
   - platform: state
     entity_id: !input "window_entity"
